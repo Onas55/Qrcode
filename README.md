@@ -6,3 +6,13 @@ is import qrcode.
 import qrcode.
 Define a variable (any name ) not that the variable we're defining is the data we're encoding behind the QRcode 
 Sample = "https://facebook.com"
+
+After that we create a qrcode instance like the one in my code we declare the version, error correction box size and border , but we would first create an object that'll hold the the following parameters 
+i listed earlier .
+- version is the size of the qrcode which was set to 1.
+- error correction : it's like having a built-in process that helps the qrcode reader to still interpret the code correctly even if it's deformed .
+_ There are four levels of error correction low , medium, high and quartile. when you indicate the error correction level during the creation of a qrcode , you're basically telling your library
+how much redundancy to include in the code , more redundancy allows for better error correction but also increases the size of the qrcode . 
+- box size : sets the size of each box in the qrcode image , larger values outcomes larger to larger qrcode.
+- border : sets the width of the white border around the qrcode .
+
