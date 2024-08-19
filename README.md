@@ -16,5 +16,10 @@ how much redundancy to include in the code , more redundancy allows for better e
 - box size : sets the size of each box in the qrcode image , larger values outcomes larger to larger qrcode.
 - border : sets the width of the white border around the qrcode .
    After that we add data to the qrcode instances like this .
-- qr.add_data(the variable we declared first that's holding the data of the qrcode).
+- qr.add_data(the variable we declared first that's holding the data of the qrcode). mine was sample so qr.add_data(Sample)
+- Now we generate the qrcode qr.make(fit=true).
+- Then we create an image for the qrcode: img = qr.make_image(fill_color="green",back_color="white") the fill_color parameter specifies the color of the qrcode , and the back_color specifies the background color .
+  Note: you can give your qrcode any color you want , but for optimun approach black and white .
+_ now we can save the qrcode so we can review with other phones , img.save(anyname.png).
+THANK YOU FOR READING 🤝🏿.
 
