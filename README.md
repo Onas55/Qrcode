@@ -15,4 +15,6 @@ _ There are four levels of error correction low , medium, high and quartile. whe
 how much redundancy to include in the code , more redundancy allows for better error correction but also increases the size of the qrcode . 
 - box size : sets the size of each box in the qrcode image , larger values outcomes larger to larger qrcode.
 - border : sets the width of the white border around the qrcode .
-- 
+   After that we add data to the qrcode instances like this .
+- qr.add_data(the variable we declared first that's holding the data of the qrcode).
+
